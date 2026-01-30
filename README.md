@@ -1,2 +1,0 @@
-# MonsterHunterWilds_type_guide
-モンハン属性早見表
