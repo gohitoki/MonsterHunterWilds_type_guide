@@ -49,7 +49,7 @@ export default function MonsterPage() {
         </p>
       ))}
 
-      <h2 className="title">通常状態</h2>
+      <h2 className="title">各部位弱点</h2>
       <div className="change_button">
         <button onClick={() => setTab("elemental")}>5属性</button>
         <button onClick={() => setTab("physical")}>斬・打・撃</button>
@@ -67,7 +67,7 @@ export default function MonsterPage() {
 
             {monster.parts.map((part) => (
               <React.Fragment key={part.name}>
-                <div className="part-name">{part.name}</div>
+                <div className="part-name part-border">{part.name}</div>
                 <div className={`part-name ${part.element.fire === "☆" ? "star" : part.element.fire === "◎" ? "verygood" : ""}`}>
                   {part.element.fire}
                 </div>
@@ -101,7 +101,7 @@ export default function MonsterPage() {
         
             {monster.parts.map((part) => (
               <React.Fragment key={part.name}>
-                <div className="part-name">{part.name}</div>
+                <div className="part-name part-border">{part.name}</div>
                 <div className={`part-name ${part.element.zan === "☆" ? "star" : part.element.zan === "◎" ? "verygood" : ""}`}>
                   {part.element.zan}
                 </div>

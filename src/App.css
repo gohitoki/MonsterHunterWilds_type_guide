@@ -71,6 +71,9 @@ main{
 .verygood{
   color:#ffff43;
 }
+.part-border{
+  border:0.5px solid#ebebeb;
+}
 .monster-page{
   width:100%;
   background:#000;
