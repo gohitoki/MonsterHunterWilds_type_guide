@@ -11,6 +11,7 @@ import dragon from "./assets/dragon.png"
 import mahi from "./assets/mahi.png"
 import poison from "./assets/poison.png"
 import sleep from "./assets/sleep.png"
+import bomb from "./assets/bomb.png"
 import zan from "./assets/zan.png"
 import hanmer from "./assets/hanmer.png"
 import arrow from "./assets/arrow.png"
@@ -124,7 +125,7 @@ export default function MonsterPage() {
         <div className="status_img"><img src={mahi} alt="" /></div>
         <div className="status_img"><img src={sleep} alt="" /></div>
         <div className="status_img"><img src={poison} alt="" /></div>
-        <div></div>
+        <div className="status_img"><img src={bomb} alt="" /></div>
         {monster.status.map((statu) => (
           <React.Fragment >
             <div className="status">{statu.status.paralysis}</div>
