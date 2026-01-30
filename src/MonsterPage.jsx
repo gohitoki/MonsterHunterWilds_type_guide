@@ -51,8 +51,8 @@ export default function MonsterPage() {
 
       <h2 className="title">通常状態</h2>
       <div className="change_button">
-        <button onClick={() => setTab("elemental")}>属性</button>
-        <button onClick={() => setTab("physical")}>物理</button>
+        <button onClick={() => setTab("elemental")}>5属性</button>
+        <button onClick={() => setTab("physical")}>斬・打・撃</button>
       </div>
       <p className="notes"><span className="star">☆</span>=非常に有効　<span className="verygood">◎</span>=かなり有効　○=有効　△=効きづらい　×=無効</p>
       <div>
