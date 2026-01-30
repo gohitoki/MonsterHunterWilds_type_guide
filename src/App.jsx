@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import MonsterPage from "./MonsterPage";
 import ScrollTop from "./scrollTop";
