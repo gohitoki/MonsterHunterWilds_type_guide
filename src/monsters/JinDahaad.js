@@ -28,6 +28,7 @@ export default {
   ],
 
   skills: [
+    { name: "拘束耐性(歴戦王)", priority: "high" },
     { name: "耳栓Lv3",priority: "low" },
     { name: "拘束耐性", priority: "low" },
   ]

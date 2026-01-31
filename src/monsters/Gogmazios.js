@@ -35,7 +35,7 @@ export default {
   ],
 
   skills: [
-    { name: "耐震Lv3", priority: "high" },
+    { name: "耐震Lv2", priority: "high" },
     { name: "耳栓Lv3", priority: "low" },
     { name: "ハンター生活", priority: "low" },
 

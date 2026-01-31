@@ -27,5 +27,6 @@ export default {
   skills: [
     { name: "雷耐性", priority: "low" },
     { name: "耳栓Lv2", priority: "low" },
+    { name: "回避距離UP", priority: "low" },
   ]
 };
