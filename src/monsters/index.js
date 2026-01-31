@@ -1,6 +1,6 @@
 import Chatacabra from "./Chatacabra";
-import kema from "./kema";
-import rabara from "./rabara";
+import Quematrice from "./Quematrice";
+import LalaBarina from "./LalaBarina";
 import konga from "./konga";
 import barahara from "./barahara";
 import dosya from "./dosya";
@@ -35,8 +35,8 @@ import Gogmazios from "./Gogmazios";
 
 export const monsters = {
   Chatacabra: Chatacabra,
-  kema:kema,
-  rabara:rabara,
+  Quematrice:Quematrice,
+  LalaBarina:LalaBarina,
   konga:konga,
   barahara:barahara,
   dosya:dosya,
