@@ -184,7 +184,7 @@ main{
   width:85%;
   margin:0 auto;
   display:grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(9,1fr);
   grid-template-rows: repeat(auto);
   gap:10px;
 }
@@ -215,15 +215,15 @@ main{
 .dragon{
   border:1px solid#6B72B6;
 }
-.physical_grid{
+.quality_grid{
   width:85%;
-  margin:0 auto;
+  margin:100px auto 0;
   display:grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(9,1fr);
   grid-template-rows: repeat(auto);
   gap:10px;
 }
-.physical_grid div{
+.quality_grid div{
   text-align:center;
   background:#2A2A2A;
   border-radius: 10px;
@@ -232,7 +232,7 @@ main{
   align-items: center;
   padding:20px 0;
 }
-.physical_img img{
+.quality_img img{
   width:50px;
 }
 .part-name{

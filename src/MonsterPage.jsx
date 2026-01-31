@@ -49,69 +49,105 @@ export default function MonsterPage() {
         </p>
       ))}
 
-      <h2 className="title">各部位弱点</h2>
+      <h2 className="title">相性/肉質</h2>
       <div className="change_button">
-        <button onClick={() => setTab("elemental")}>5属性</button>
-        <button onClick={() => setTab("physical")}>斬・打・撃</button>
+        <button onClick={() => setTab("elemental")}>相性一覧</button>
+        <button onClick={() => setTab("meat-quality")}>肉質値一覧</button>
       </div>
-      <p className="notes"><span className="star">☆</span>=非常に有効　<span className="verygood">◎</span>=かなり有効　○=有効　△=効きづらい　×=無効</p>
       <div>
         {tab === "elemental" && (
-          <div className="elemental_grid">
-            <div>部位/属性</div>
-            <div className="elemental_img fire"><img src={fire} alt="" /></div>
-            <div className="elemental_img water"><img src={water} alt="" /></div>
-            <div className="elemental_img ice"><img src={ice} alt="" /></div>
-            <div className="elemental_img thander"><img src={thander} alt="" /></div>
-            <div className="elemental_img dragon"><img src={dragon} alt="" /></div>
+          <>
+            <p className="notes"><span className="star">☆</span>=非常に有効　<span className="verygood">◎</span>=かなり有効　○=有効　△=効きづらい　×=無効</p>
+            <div className="elemental_grid">
+              <div>部位/属性</div>
+              <div className="elemental_img"><img src={zan} alt="" /></div>
+              <div className="elemental_img"><img src={hanmer} alt="" /></div>
+              <div className="elemental_img"><img src={arrow} alt="" /></div>
+              <div className="elemental_img fire"><img src={fire} alt="" /></div>
+              <div className="elemental_img water"><img src={water} alt="" /></div>
+              <div className="elemental_img ice"><img src={ice} alt="" /></div>
+              <div className="elemental_img thander"><img src={thander} alt="" /></div>
+              <div className="elemental_img dragon"><img src={dragon} alt="" /></div>
 
-            {monster.parts.map((part) => (
-              <React.Fragment key={part.name}>
-                <div className="part-name part-border">{part.name}</div>
-                <div className={`part-name ${part.element.fire === "☆" ? "star" : part.element.fire === "◎" ? "verygood" : ""}`}>
-                  {part.element.fire}
-                </div>
+              {monster.parts.map((part) => (
+                <React.Fragment key={part.name}>
+                  <div className="part-name part-border">{part.name}</div>
+                  <div className={`part-name ${part.element.zan === "☆" ? "star" : part.element.zan === "◎" ? "verygood" : ""}`}>
+                    {part.element.zan}
+                  </div>
+                  <div className={`part-name ${part.element.da === "☆" ? "star" : part.element.da === "◎" ? "verygood" : ""}`}>
+                    {part.element.da}
+                  </div>
+                  <div className={`part-name ${part.element.tama === "☆" ? "star" : part.element.tama === "◎" ? "verygood" : ""}`}>
+                    {part.element.tama}
+                  </div>
+                  <div className={`part-name ${part.element.fire === "☆" ? "star" : part.element.fire === "◎" ? "verygood" : ""}`}>
+                    {part.element.fire}
+                  </div>
 
-                <div className={`part-name ${part.element.water === "☆" ? "star" : part.element.water === "◎" ? "verygood" : ""}`}>
-                  {part.element.water}
-                </div>
+                  <div className={`part-name ${part.element.water === "☆" ? "star" : part.element.water === "◎" ? "verygood" : ""}`}>
+                    {part.element.water}
+                  </div>
 
-                <div className={`part-name ${part.element.ice === "☆" ? "star" : part.element.ice === "◎" ? "verygood" : ""}`}>
-                  {part.element.ice}
-                </div>
+                  <div className={`part-name ${part.element.ice === "☆" ? "star" : part.element.ice === "◎" ? "verygood" : ""}`}>
+                    {part.element.ice}
+                  </div>
 
-                <div className={`part-name ${part.element.thunder === "☆" ? "star" : part.element.thunder === "◎" ? "verygood" : ""}`}>
-                  {part.element.thunder}
-                </div>
+                  <div className={`part-name ${part.element.thunder === "☆" ? "star" : part.element.thunder === "◎" ? "verygood" : ""}`}>
+                    {part.element.thunder}
+                  </div>
 
-                <div className={`part-name ${part.element.dragon === "☆" ? "star" : part.element.dragon === "◎" ? "verygood" : ""}`}>
-                  {part.element.dragon}
-                </div>
-              </React.Fragment>
-            ))}
-          </div>
+                  <div className={`part-name ${part.element.dragon === "☆" ? "star" : part.element.dragon === "◎" ? "verygood" : ""}`}>
+                    {part.element.dragon}
+                  </div>
+                </React.Fragment>
+              ))}
+            </div>
+          </>
         )}
 
-        {tab === "physical" && (
-          <div className="physical_grid">
-            <div>部位/武器種</div>
-            <div className="physical_img"><img src={zan} alt="" /></div>
-            <div className="physical_img"><img src={hanmer} alt="" /></div>
-            <div className="physical_img"><img src={arrow} alt="" /></div>
+        {tab === "meat-quality" && (
+          <div className="quality_grid">
+            <div>部位/肉質</div>
+            <div className="quality_img"><img src={zan} alt="" /></div>
+            <div className="quality_img"><img src={hanmer} alt="" /></div>
+            <div className="quality_img"><img src={arrow} alt="" /></div>
+            <div className="quality_img fire"><img src={fire} alt="" /></div>
+            <div className="quality_img water"><img src={water} alt="" /></div>
+            <div className="quality_img ice"><img src={ice} alt="" /></div>
+            <div className="quality_img thander"><img src={thander} alt="" /></div>
+            <div className="quality_img dragon"><img src={dragon} alt="" /></div>
         
             {monster.parts.map((part) => (
               <React.Fragment key={part.name}>
                 <div className="part-name part-border">{part.name}</div>
-                <div className={`part-name ${part.element.zan === "☆" ? "star" : part.element.zan === "◎" ? "verygood" : ""}`}>
-                  {part.element.zan}
+                <div className={`part-name ${part.element.zan_quality === "☆" ? "star" : part.element.zan_quality === "◎" ? "verygood" : ""}`}>
+                  {part.element.zan_quality}
+                </div>
+                <div className={`part-name ${part.element.da_quality === "☆" ? "star" : part.element.da_quality === "◎" ? "verygood" : ""}`}>
+                  {part.element.da_quality}
+                </div>
+                <div className={`part-name ${part.element.tama_quality === "☆" ? "star" : part.element.tama_quality === "◎" ? "verygood" : ""}`}>
+                  {part.element.tama_quality}
+                </div>
+                <div className={`part-name ${part.element.fire_quality === "☆" ? "star" : part.element.fire_quality === "◎" ? "verygood" : ""}`}>
+                  {part.element.fire_quality}
                 </div>
 
-                <div className={`part-name ${part.element.da === "☆" ? "star" : part.element.da === "◎" ? "verygood" : ""}`}>
-                  {part.element.da}
+                <div className={`part-name ${part.element.water_quality === "☆" ? "star" : part.element.water_quality === "◎" ? "verygood" : ""}`}>
+                  {part.element.water_quality}
                 </div>
 
-                <div className={`part-name ${part.element.tama === "☆" ? "star" : part.element.tama === "◎" ? "verygood" : ""}`}>
-                  {part.element.tama}
+                <div className={`part-name ${part.element.ice_quality === "☆" ? "star" : part.element.ice_quality === "◎" ? "verygood" : ""}`}>
+                  {part.element.ice_quality}
+                </div>
+
+                <div className={`part-name ${part.element.thander_quality === "☆" ? "star" : part.element.thander_quality === "◎" ? "verygood" : ""}`}>
+                  {part.element.thander_quality}
+                </div>
+
+                <div className={`part-name ${part.element.dragon_quality === "☆" ? "star" : part.element.dragon_quality === "◎" ? "verygood" : ""}`}>
+                  {part.element.dragon_quality}
                 </div>
               </React.Fragment>
             ))}

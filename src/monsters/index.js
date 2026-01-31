@@ -1,7 +1,7 @@
 import Chatacabra from "./Chatacabra";
 import Quematrice from "./Quematrice";
 import LalaBarina from "./LalaBarina";
-import konga from "./konga";
+import Congalala from "./Congalala";
 import barahara from "./barahara";
 import dosya from "./dosya";
 import UthDuna from "./UthDuna";
@@ -37,7 +37,7 @@ export const monsters = {
   Chatacabra: Chatacabra,
   Quematrice:Quematrice,
   LalaBarina:LalaBarina,
-  konga:konga,
+  Congalala:Congalala,
   barahara:barahara,
   dosya:dosya,
   UthDuna:UthDuna,
