@@ -6,14 +6,12 @@ export default {
     img: Chatacabra,
     monster_elemental: [{name:"無属性",type_color:"gray"}],
     parts: [
-      { name: "頭部", element: { fire: "△", water: "△", thunder: "◎", ice: "△", dragon: "×" ,zan:"☆",da:"☆",tama:"☆"}},
-      { name: "舌", element: { fire: "△", water: "△", thunder: "◎", ice: "○", dragon: "×", zan:"☆",da:"☆",tama:"☆"}},
-      { name: "胴", element: { fire: "△", water: "△", thunder: "◎", ice: "○", dragon: "×", zan:"◎",da:"◎",tama:"◎"}},
-      { name: "左前脚", element: { fire: "△", water: "△", thunder: "○", ice: "△", dragon: "×", zan:"☆",da:"☆",tama:"☆" }},
-      { name: "右前脚", element: { fire: "△", water: "△", thunder: "○", ice: "△", dragon: "×", zan:"☆",da:"☆",tama:"☆" }},
-      { name: "左後脚", element: { fire: "×", water: "×", thunder: "◎", ice: "○", dragon: "×", zan:"◎",da:"◎",tama:"◎" }},
-      { name: "右後脚", element: { fire: "×", water: "×", thunder: "◎", ice: "○", dragon: "×", zan:"◎",da:"◎",tama:"◎" }},
-      { name: "尻", element: { fire: "△", water: "△", thunder: "◎", ice: "○", dragon: "×", zan:"◎",da:"◎",tama:"◎" }},
+      { name: "頭部", element: { fire: "△", water: "△", thunder: "◎", ice: "△", dragon: "×" ,zan:"☆",da:"☆",tama:"☆" ,zan_quality:"60",da_quality:"65",tama_quality:"60",fire_quality:"10",water_quality:"5",thander_quality:"25",ice_quality:"10",dragon_quality:"0"}},
+      { name: "胴", element: { fire: "△", water: "△", thunder: "◎", ice: "○", dragon: "×", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"45",da_quality:"45",tama_quality:"45",fire_quality:"10",water_quality:"5",thander_quality:"30",ice_quality:"15",dragon_quality:"0"}},
+      { name: "前脚", element: { fire: "△", water: "△", thunder: "○", ice: "△", dragon: "×", zan:"☆",da:"☆",tama:"☆" ,zan_quality:"60",da_quality:"60",tama_quality:"65",fire_quality:"5",water_quality:"5",thander_quality:"15",ice_quality:"10",dragon_quality:"0"}},
+      { name: "前脚(粘着纏)", element: { fire: "×", water: "×", thunder: "○", ice: "○", dragon: "×", zan:"◎",da:"☆",tama:"◎" ,zan_quality:"50",da_quality:"65",tama_quality:"50",fire_quality:"0",water_quality:"0",thander_quality:"15",ice_quality:"10",dragon_quality:"0"}},
+      { name: "後脚", element: { fire: "×", water: "×", thunder: "◎", ice: "○", dragon: "×", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"45",da_quality:"45",tama_quality:"45",fire_quality:"0",water_quality:"0",thander_quality:"20",ice_quality:"15",dragon_quality:"0"}},
+      { name: "尻", element: { fire: "△", water: "△", thunder: "◎", ice: "○", dragon: "×", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"50",da_quality:"50",tama_quality:"55",fire_quality:"10",water_quality:"5",thander_quality:"20",ice_quality:"15",dragon_quality:"0"}},
     ],
 
     status:[
