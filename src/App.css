@@ -19,6 +19,11 @@ main{
   padding:50px auto;
   margin:0 auto;
 }
+@media(max-width:500px){
+  .toppage_logo{
+    width:200px;
+  }
+}
 .toppage_logo img{
   width:100%;
 }
@@ -26,6 +31,12 @@ main{
   font-size:40px;
   text-align:center;
   margin-top:100px;
+}
+@media(max-width:500px){
+  .top_title{
+    font-size:30px;
+    margin-top:50px;
+  }
 }
 .top_grid{
   width:90%;
@@ -35,6 +46,14 @@ main{
   grid-template-rows: repeat(auto);
   gap:30px;
   padding-bottom:100px;
+}
+@media(max-width:500px){
+  .top_grid{
+    width:95%;
+    margin:50px auto 0;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+  }
 }
 .monster-card{
   position:relative;
@@ -85,6 +104,13 @@ main{
   right:30px;
   width:300px;
 }
+@media(max-width:500px){
+  .monster-page_logo{
+    top:10px;
+    right:10px;
+    width:100px;
+  }
+}
 .back-btn{
   text-decoration: none; /* 下線消す */
   color: inherit;  
@@ -97,6 +123,14 @@ main{
   font-size:25px;
   transition:all 0.2s;
 }
+@media(max-width:500px){
+  .back-btn{
+    font-size:20px;
+    padding:10px 20px;
+    top:10px;
+    left:10px;
+  }
+}
 .back-btn:hover{
   background:#fff;
   color:#000;
@@ -106,6 +140,11 @@ main{
   width:300px;
   margin:0 auto;
 }
+@media(max-width:500px){
+  .monster-image{
+    width:150px;
+  }
+}
 .monster-image img{
   width:100%;
 }
@@ -113,6 +152,11 @@ main{
   text-align:center;
   font-size:50px;
   margin-top:50px;
+}
+@media(max-width:500px){
+  .monster-title{
+    font-size:30px;
+  }
 }
 .monster-elemental{
   text-align:center;
@@ -122,6 +166,12 @@ main{
   padding:20px 150px;
   border:5px solid#000;
   border-radius: 10px;
+}
+@media(max-width:500px){
+  .monster-elemental{
+    padding:20px 80px;
+    font-size:25px;
+  }
 }
 .gray{
   border-color:#c0c0c0;
@@ -152,16 +202,32 @@ main{
   text-align:center;
   font-size:35px;
 }
+@media(max-width:500px){
+  .title{
+    font-size:30px;
+  }
+}
 .notes{
   width:85%;
   margin:50px auto 20px;
   font-size:20px;
+}
+@media(max-width:500px){
+  .notes{
+    font-size:10px;
+    width:95%;
+  }
 }
 .change_button{
   width:85%;
   margin:50px auto 0;
   display:flex;
   justify-content: space-between;
+}
+@media(max-width:500px){
+  .change_button{
+    width:95%;
+  }
 }
 .change_button button{
   width:50%;
@@ -180,6 +246,10 @@ main{
   background:#fff;
   color:#000;
 }
+.change_button button.active {
+  background: #fff;
+  color: #000;
+}
 .elemental_grid{
   width:85%;
   margin:0 auto;
@@ -187,6 +257,12 @@ main{
   grid-template-columns: repeat(9,1fr);
   grid-template-rows: repeat(auto);
   gap:10px;
+}
+@media(max-width:500px){
+  .elemental_grid{
+    width:95%;
+    gap:5px;
+  }
 }
 .elemental_grid div{
   text-align:center;
@@ -197,8 +273,18 @@ main{
   align-items: center;
   padding:20px 0;
 }
+@media(max-width:500px){
+  .elemental_grid div{
+    padding:10px 0;
+  }
+}
 .elemental_img img{
   width:50px;
+}
+@media(max-width:500px){
+  .elemental_img img{
+    width:25px;
+  }
 }
 .fire{
   border:1px solid#FF4802;
@@ -217,11 +303,18 @@ main{
 }
 .quality_grid{
   width:85%;
-  margin:100px auto 0;
+  margin:90px auto 0;
   display:grid;
   grid-template-columns: repeat(9,1fr);
   grid-template-rows: repeat(auto);
   gap:10px;
+}
+@media(max-width:500px){
+  .quality_grid{
+    width:95%;
+    gap:5px;
+    margin:80px auto 0;
+  }
 }
 .quality_grid div{
   text-align:center;
@@ -232,11 +325,26 @@ main{
   align-items: center;
   padding:20px 0;
 }
+@media(max-width:500px){
+  .quality_grid div{
+    padding:10px 0;
+  }
+}
 .quality_img img{
   width:50px;
 }
+@media(max-width:500px){
+  .quality_img img{
+    width:25px;
+  }
+}
 .part-name{
   font-size:25px;
+}
+@media(max-width:500px){
+  .part-name{
+    font-size:12px;
+  }
 }
 
 
@@ -246,6 +354,12 @@ main{
   text-align:center;
   font-size:35px;
 }
+@media(max-width:500px){
+  .status_title{
+    font-size:30px;
+    margin-top:100px;
+  }
+}
 .status_grid{
   width:85%;
   margin:0 auto;
@@ -253,6 +367,12 @@ main{
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(auto);
   gap:10px;
+}
+@media(max-width:500px){
+  .status_grid{
+    width:95%;
+    gap:5px;
+  }
 }
 .status_grid div{
   text-align:center;
@@ -263,11 +383,26 @@ main{
   align-items: center;
   padding:20px 0;
 }
+@media(max-width:500px){
+  .status_grid div{
+    padding:10px 0;
+  }
+}
 .status_img img{
   width:50px;
 }
+@media(max-width:500px){
+  .status_img img{
+    width:25px;
+  }
+}
 .status{
   font-size:25px;
+}
+@media(max-width:500px){
+  .status{
+    font-size:12px;
+  }
 }
 
 .tools_grid{
@@ -278,6 +413,12 @@ main{
   grid-template-rows: repeat(auto);
   gap:10px;
 }
+@media(max-width:500px){
+  .tools_grid{
+    width:95%;
+    gap:5px;
+  }
+}
 .tools_grid div{
   text-align:center;
   background:#2A2A2A;
@@ -287,11 +428,26 @@ main{
   align-items: center;
   padding:20px 0;
 }
+@media(max-width:500px){
+  .tools_grid div{
+    padding:10px 0;
+  }
+}
 .tools_text{
   font-size:25px;
 }
+@media(max-width:500px){
+  .tools_text{
+    font-size:14px;
+  }
+}
 .tools{
   font-size:25px;
+}
+@media(max-width:500px){
+  .tools{
+    font-size:12px;
+  }
 }
 
 
@@ -300,6 +456,12 @@ main{
   font-size:35px;
   margin-top:200px;
 }
+@media(max-width:500px){
+  .skill_title{
+    font-size:30px;
+    margin-top:100px;
+  }
+}
 .skill_notes{
   margin-top:70px;
   font-size:20px;
@@ -307,13 +469,28 @@ main{
   justify-content: center;
   align-items: center;
 }
+@media(max-width:500px){
+  .skill_notes{
+    font-size:14px;
+  }
+}
 .red{
   color:#FF0000;
   font-size:25px;
 }
+@media(max-width:500px){
+  .red{
+    font-size:20px;
+  }
+}
 .blue{
   color:#0062FF;
   font-size:25px;
+}
+@media(max-width:500px){
+  .blue{
+    font-size:20px;
+  }
 }
 .skill_flex{
   width:max-content;
@@ -322,12 +499,26 @@ main{
   display:flex;
   justify-content: space-between;
 }
+@media(max-width:500px){
+  .skill_flex{
+    display:block;
+  }
+}
 .skills{
   font-size:25px;
   padding:20px 50px;
   border:1px solid#fff;
   border-radius: 10px;
   margin:0 50px;
+}
+@media(max-width:500px){
+  .skills{
+    font-size:20px;
+    padding:15px 30px;
+    margin:10px 0;
+    display:flex;
+    justify-content: center;
+  }
 }
 .high{
   border-color:#FF0000;

@@ -51,8 +51,8 @@ export default function MonsterPage() {
 
       <h2 className="title">相性/肉質</h2>
       <div className="change_button">
-        <button onClick={() => setTab("elemental")}>相性一覧</button>
-        <button onClick={() => setTab("meat-quality")}>肉質値一覧</button>
+        <button className={tab === "elemental" ? "active" : ""}onClick={() => setTab("elemental")}>相性一覧</button>
+        <button className={tab === "meat-quality" ? "active" : ""}onClick={() => setTab("meat-quality")}>肉質値一覧</button>
       </div>
       <div>
         {tab === "elemental" && (
