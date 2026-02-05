@@ -2,7 +2,7 @@ import Chatacabra from "./Chatacabra";
 import Quematrice from "./Quematrice";
 import LalaBarina from "./LalaBarina";
 import Congalala from "./Congalala";
-import barahara from "./barahara";
+import Baraharahara from "./Baraharahara";
 import dosya from "./dosya";
 import UthDuna from "./UthDuna";
 import pupu from "./pupu";
@@ -38,7 +38,7 @@ export const monsters = {
   Quematrice:Quematrice,
   LalaBarina:LalaBarina,
   Congalala:Congalala,
-  barahara:barahara,
+  Baraharahara:Baraharahara,
   dosya:dosya,
   UthDuna:UthDuna,
   pupu:pupu,
