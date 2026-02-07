@@ -3,11 +3,11 @@ import Quematrice from "./Quematrice";
 import LalaBarina from "./LalaBarina";
 import Congalala from "./Congalala";
 import Baraharahara from "./Baraharahara";
-import dosya from "./dosya";
+import Doshaguma from "./Doshaguma";
 import UthDuna from "./UthDuna";
-import pupu from "./pupu";
+import Rompopolo from "./Rompopolo";
 import ReyDau from "./ReyDau";
-import nerusu from "./nerusu";
+import Nerscylla from "./Nerscylla";
 import hirabami from "./hirabami";
 import ajara from "./ajara";
 import NuUdra from "./NuUdra";
@@ -39,11 +39,11 @@ export const monsters = {
   LalaBarina:LalaBarina,
   Congalala:Congalala,
   Baraharahara:Baraharahara,
-  dosya:dosya,
+  Doshaguma:Doshaguma,
   UthDuna:UthDuna,
-  pupu:pupu,
+  Rompopolo:Rompopolo,
   ReyDau:ReyDau,
-  nerusu:nerusu,
+  Nerscylla:Nerscylla,
   hirabami:hirabami,
   ajara:ajara,
   NuUdra:NuUdra,

@@ -15,16 +15,14 @@ export default {
   ],
 
   status:[
-    {status:{paralysis:"○",sleep:"○",poison:"○",explosion:"○"}},
+    {status:{paralysis:"◎",sleep:"○",poison:"○",explosion:"○"}},
   ],
 
   tools:[
-    {tools:{frash:"◎",sound:"×",pitfull:"◎",mahitrap:"◎",induction:"◎"}},
+    {tools:{frash:"◎",sound:"◎",pitfull:"◎",mahitrap:"◎",induction:"◎"}},
   ],
 
   skills: [
-    { name: "属性やられ耐性", priority: "low" },
     { name: "耳栓Lv2", priority: "low" },
-    { name: "破壊王", priority: "low" },
   ]
   };
