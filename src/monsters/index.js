@@ -8,8 +8,8 @@ import UthDuna from "./UthDuna";
 import Rompopolo from "./Rompopolo";
 import ReyDau from "./ReyDau";
 import Nerscylla from "./Nerscylla";
-import hirabami from "./hirabami";
-import ajara from "./ajara";
+import Hirabami from "./Hirabami";
+import Ajarakan from "./Ajarakan";
 import NuUdra from "./NuUdra";
 import g_dosya from "./g_dosya";
 import g_reusu from "./g_reusu";
@@ -44,8 +44,8 @@ export const monsters = {
   Rompopolo:Rompopolo,
   ReyDau:ReyDau,
   Nerscylla:Nerscylla,
-  hirabami:hirabami,
-  ajara:ajara,
+  Hirabami:Hirabami,
+  Ajarakan:Ajarakan,
   NuUdra:NuUdra,
   g_dosya:g_dosya,
   g_reusu:g_reusu,
