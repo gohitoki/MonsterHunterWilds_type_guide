@@ -11,8 +11,8 @@ import Nerscylla from "./Nerscylla";
 import Hirabami from "./Hirabami";
 import Ajarakan from "./Ajarakan";
 import NuUdra from "./NuUdra";
-import g_dosya from "./g_dosya";
-import g_reusu from "./g_reusu";
+import GaurdianDoshaguma from "./GaurdianDoshaguma";
+import GuardianRathalos from "./GuardianRathalos";
 import JinDahaad from "./JinDahaad";
 import garon from "./garon";
 import siu from "./siu";
@@ -47,8 +47,8 @@ export const monsters = {
   Hirabami:Hirabami,
   Ajarakan:Ajarakan,
   NuUdra:NuUdra,
-  g_dosya:g_dosya,
-  g_reusu:g_reusu,
+  GaurdianDoshaguma:GaurdianDoshaguma,
+  GuardianRathalos:GuardianRathalos,
   JinDahaad:JinDahaad,
   garon:garon,
   siu:siu,
