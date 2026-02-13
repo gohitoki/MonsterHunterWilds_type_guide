@@ -14,8 +14,8 @@ import NuUdra from "./NuUdra";
 import GaurdianDoshaguma from "./GaurdianDoshaguma";
 import GuardianRathalos from "./GuardianRathalos";
 import JinDahaad from "./JinDahaad";
-import garon from "./garon";
-import siu from "./siu";
+import GuardianOdogaron from "./GuardianOdogaron";
+import Shiu from "./Shiu";
 import Arkveld from "./Arkveld";
 import Zo_Shea from "./Zo_Shea";
 import kukku from "./kukku";
@@ -50,8 +50,8 @@ export const monsters = {
   GaurdianDoshaguma:GaurdianDoshaguma,
   GuardianRathalos:GuardianRathalos,
   JinDahaad:JinDahaad,
-  garon:garon,
-  siu:siu,
+  GuardianOdogaron:GuardianOdogaron,
+  Shiu:Shiu,
   Zo_Shea:Zo_Shea,
   kukku:kukku,
   geryosu:geryosu,
