@@ -18,13 +18,13 @@ import GuardianOdogaron from "./GuardianOdogaron";
 import Shiu from "./Shiu";
 import Arkveld from "./Arkveld";
 import Zo_Shea from "./Zo_Shea";
-import kukku from "./kukku";
-import geryosu from "./geryosu";
-import reia from "./reia";
-import janahu from "./janahu";
-import reusu from "./reusu";
-import grabi from "./grabi";
-import brango from "./brango";
+import YianKutKu from "./YianKutKu";
+import Gypceros from "./Gypceros";
+import Rathian from "./Rathian";
+import GuardianFulgurAnjanath from "./GuardianFulgurAnjanath";
+import Rathalos from "./Rathalos";
+import Gravios from "./Gravios";
+import Dodobrango from "./Dodobrango";
 import GoreMagala from "./GoreMagala";
 import Mizutsune from "./Mizutsune";
 import Seregios from "./Seregios";
@@ -53,13 +53,13 @@ export const monsters = {
   GuardianOdogaron:GuardianOdogaron,
   Shiu:Shiu,
   Zo_Shea:Zo_Shea,
-  kukku:kukku,
-  geryosu:geryosu,
-  reia:reia,
-  janahu:janahu,
-  reusu:reusu,
-  grabi:grabi,
-  brango:brango,
+  YianKutKu:YianKutKu,
+  Gypceros:Gypceros,
+  Rathian:Rathian,
+  GuardianFulgurAnjanath:GuardianFulgurAnjanath,
+  Rathalos:Rathalos,
+  Gravios:Gravios,
+  Dodobrango:Dodobrango,
   GoreMagala:GoreMagala,
   Arkveld:Arkveld,
   Mizutsune:Mizutsune,
