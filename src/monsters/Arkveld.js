@@ -12,6 +12,10 @@ export default {
       { name: "鎖翼刃", element: { fire: "×", water: "×", thunder: "×", ice: "×", dragon: "×", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"50",da_quality:"50",tama_quality:"45",fire_quality:"0",water_quality:"0",thander_quality:"0",ice_quality:"0",dragon_quality:"0"}},
       { name: "脚", element: { fire: "△", water: "△", thunder: "△", ice: "△", dragon: "△", zan:"○",da:"○",tama:"○" ,zan_quality:"26",da_quality:"25",tama_quality:"20",fire_quality:"2",water_quality:"2",thander_quality:"2",ice_quality:"2",dragon_quality:"4"}},
       { name: "尻尾", element: { fire: "△", water: "△", thunder: "△", ice: "△", dragon: "△", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"45",da_quality:"40",tama_quality:"42",fire_quality:"5",water_quality:"5",thander_quality:"5",ice_quality:"5",dragon_quality:"5"}},
+      { name: "頭(歴戦王)", element: { fire: "△", water: "△", thunder: "△", ice: "△", dragon: "△", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"45",da_quality:"48",tama_quality:"45",fire_quality:"10",water_quality:"10",thander_quality:"10",ice_quality:"10",dragon_quality:"10"}},
+      { name: "鎖翼刃(歴戦王2本)", element: { fire: "◎", water: "◎", thunder: "◎", ice: "◎", dragon: "◎", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"50",da_quality:"50",tama_quality:"45",fire_quality:"20",water_quality:"20",thander_quality:"20",ice_quality:"20",dragon_quality:"20"}},
+      { name: "鎖翼刃(歴戦王1本)", element: { fire: "△", water: "△", thunder: "△", ice: "△", dragon: "△", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"50",da_quality:"50",tama_quality:"45",fire_quality:"5",water_quality:"5",thander_quality:"5",ice_quality:"5",dragon_quality:"5"}},
+      { name: "鎖翼刃(歴戦王1本属性吸収)", element: { fire: "×", water: "×", thunder: "×", ice: "×", dragon: "×", zan:"◎",da:"◎",tama:"◎" ,zan_quality:"50",da_quality:"50",tama_quality:"45",fire_quality:"0",water_quality:"0",thander_quality:"0",ice_quality:"0",dragon_quality:"0"}},
     ],
 
     status:[
